@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h2>Campus Hub</h2>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Profile</a></li>
+<li><a href="#">Grades</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="courses">
+<h2>Available Courses</h2>
+<input type="text" id="filterBox" placeholder="Search courses...">
+<button id="sortBtn">Sort by Credits</button>
+<div class="course-grid"></div>
+<p id="creditTotal"></p>
+<div id="pickedCourse"></div>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2026 Campus Hub</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

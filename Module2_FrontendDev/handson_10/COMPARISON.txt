@@ -1,0 +1,19 @@
+State management comparison:
+
+React + Redux Toolkit
+- Boilerplate: low (createSlice, createAsyncThunk handle most of it)
+- Learning curve: moderate
+- Tooling: Redux DevTools, great ecosystem
+
+Angular + NgRx
+- Boilerplate: high (actions, reducers, effects, selectors as separate files)
+- Learning curve: steep, needs RxJS knowledge
+- Tooling: Angular DevTools + Redux DevTools support
+
+Vue + Pinia
+- Boilerplate: lowest (single store file, Composition API style)
+- Learning curve: easiest
+- Tooling: Vue DevTools with built-in Pinia inspector
+
+NgRx data flow:
+Component -> dispatch Action -> Effect -> API call -> Reducer -> State -> Selector -> Component

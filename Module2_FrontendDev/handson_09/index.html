@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h2>Campus Hub</h2>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="#" aria-current="page">Home</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Profile</a></li>
+<li><a href="#">Grades</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="courses">
+<h2>Courses</h2>
+<label for="filterBox">Search courses</label>
+<input type="text" id="filterBox" placeholder="Search courses...">
+<p id="resultCount" role="status" aria-live="polite"></p>
+<div class="course-grid"></div>
+</section>
+
+<section id="profile">
+<h2>Profile</h2>
+<form>
+<label for="fullName">Full name</label>
+<input type="text" id="fullName" name="fullName">
+<label for="emailAddr">Email</label>
+<input type="email" id="emailAddr" name="emailAddr">
+</form>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2026 Campus Hub</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

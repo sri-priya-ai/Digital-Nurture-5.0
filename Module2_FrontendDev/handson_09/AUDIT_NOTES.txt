@@ -1,0 +1,14 @@
+Accessibility checklist covered in this hands-on:
+- All inputs have associated <label> elements
+- nav has aria-label="Main navigation"
+- Active nav link has aria-current="page"
+- Search result count uses role="status" aria-live="polite"
+- Course cards are keyboard-focusable (tabindex=0) and respond to Enter key
+- Visible focus outlines on links and cards (no outline:none used)
+- Text color #1a1a1a on #ffffff background passes WCAG AA contrast (>4.5:1)
+
+Run Lighthouse (Chrome DevTools > Lighthouse > Accessibility) and axe DevTools
+extension on this page, then record the score here after testing:
+
+Lighthouse score: ___
+Issues found: ___
