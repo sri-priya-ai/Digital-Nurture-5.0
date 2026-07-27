@@ -1,5 +1,0 @@
-django
-djangorestframework
-python-jose[cryptography]
-passlib[bcrypt]
-django-cors-headers
